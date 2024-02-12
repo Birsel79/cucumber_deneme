@@ -7,9 +7,10 @@ import io.cucumber.testng.CucumberOptions;
         features = {"src/test/java"},
         glue = {"stepDefinitions"},
         dryRun = false
+
 )
 
-public class 01RunnerGenel extends AbstractTestNGCucumberTests {
+public class _0_1_RunnerGenel extends AbstractTestNGCucumberTests {
 
 }
 
