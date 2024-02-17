@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
 
 )
 
-public class _0_1_RunnerGenel extends AbstractTestNGCucumberTests {
+public class TestRunnerGenel extends AbstractTestNGCucumberTests {
 
 }
 
