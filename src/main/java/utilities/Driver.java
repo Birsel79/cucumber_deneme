@@ -17,10 +17,10 @@ public class Driver {
         return driver;
     }
 
-    public static void closeDriver(){
-        if(driver!=null){
+    public static void closeDriver() {
+        if (driver != null) {
             driver.quit();
-            driver =null;
-        }q
+            driver = null;
+        }
     }
 }
