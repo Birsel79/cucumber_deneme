@@ -12,7 +12,7 @@ public class Driver {
             driver= new ChromeDriver();
             options.addArguments("--headless");
             //System.setProperty("webdriver.chrome.driver","C:\\Users...")
-            driver= new ChromeDriver();
+            driver= new ChromeDriver(options);
         }
         return driver;
     }
@@ -21,6 +21,6 @@ public class Driver {
         if(driver!=null){
             driver.quit();
             driver =null;
-        }
+        }q
     }
 }
